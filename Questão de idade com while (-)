@@ -5,7 +5,7 @@ int main() {
     printf("digite sua idade: ");
     scanf(" %d", &idade);
     
-    while(idade<0 || idade>120){
+    while(idade<0 || idade>=120){
         printf("digite uma idade válida! ");
         scanf(" %d", &idade);
     }
