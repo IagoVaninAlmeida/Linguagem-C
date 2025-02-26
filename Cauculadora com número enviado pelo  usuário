@@ -1,0 +1,22 @@
+//faça um programa que imprima na tela de 10 até 1 //
+
+#include <stdio.h>
+int main() {
+    int a;
+    int b=1;
+    int r;
+    
+    printf("digite seu número: ", a);
+    scanf(" %d", &a);
+    
+    while(b!=11){
+    
+    r=a*b;
+    printf("a tabuada é: %d \n", r);
+    b=b+1;
+        
+        
+    }
+    
+    return 0;
+}
